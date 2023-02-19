@@ -1,0 +1,18 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.sidebar {
+    background-color: blue;
+}
+
+.header {
+    background-color: red;
+}
+
+.main-content {
+    background-color: green;
+}
